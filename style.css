@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  
+  body {
+    /* background-image: url('https://t4.ftcdn.net/jpg/02/15/94/83/360_F_215948377_kgIhNUy4X0iYsyUfYd9KKIViSPOxclbC.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    background-color: rgb(101, 58, 58);
+  }
+  
+  .canvas {
+    background-color: rgb(80, 80, 80);
+    border: 10px solid lightgrey;
+    left: 50%;
+    top: 360px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    position:relative;
+    top:10px;
+    margin:0px;
+  }
+  
+  h3 {
+    color: white;
+    text-align: center;
+  }
